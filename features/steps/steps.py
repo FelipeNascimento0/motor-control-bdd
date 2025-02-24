@@ -54,7 +54,7 @@ def comutaMotor(hallA, hallB, hallC):
 def pararMotor():
     definir_estado_mosfet(LOW, LOW, LOW, LOW, LOW, LOW)
 
-# Função para mapear valores (equivalente à função map do Arduino)
+# Função para mapear valores 
 def map_value(value, from_min, from_max, to_min, to_max):
     return (value - from_min) * (to_max - to_min) // (from_max - from_min) + to_min
 
